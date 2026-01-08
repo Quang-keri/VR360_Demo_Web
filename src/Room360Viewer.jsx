@@ -27,7 +27,7 @@ export default function Room360Viewer() {
         <h1>Welcome to Quang Room Rent Service</h1>
       </div>
 
-      <div className="right" ref={containerRef} />
+      <div className="right" ref={containerRef} style={{ height: "100vh" }} />
     </div>
   );
 }
